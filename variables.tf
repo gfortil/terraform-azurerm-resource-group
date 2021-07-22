@@ -14,6 +14,11 @@ variable "unique_name" {
   default     = false
 }
 
+ variable "user" {
+   description  = "Admin's name"
+   type         = string
+ }
+
 variable "names" {
   description = "Names to be applied to resources (inclusive)"
   type        = object({

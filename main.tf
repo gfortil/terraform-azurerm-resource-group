@@ -1,5 +1,5 @@
 locals {
-  resource_group_name = "${var.names.resource_group_type}-${var.names.product_name}-${var.names.environment}-${var.names.location}"
+  resource_group_name = "${var.names.resource_group_type}-${var.names.product_name}-${var.names.environment}-${var.user}"
 }
 
 resource "random_integer" "suffix" {
